@@ -1,0 +1,118 @@
+:root {
+    --primary-color: #4f7c94;
+    --secondary-color:rgb(255, 254, 189);
+    --tertiary-color: #e78484; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--primary-color);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 90%; 
+    margin: 0 auto;
+}
+
+.container h1 {
+    float: left;
+    color: var(--secondary-color);
+    margin:  10px 0 10px 0;
+    padding: 2px 4px;
+    font-weight: 100;
+    border: 2px solid #e78484;
+   
+
+}
+
+header {
+    background: var(--primary-color)
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+ 
+
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: o;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 37px;
+    position: relative ;
+}
+
+nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: "";
+    display: block;
+    height: 2px;
+    margin-top: -23px;
+    width: 0%;
+    background-color: var(--tertiary-color);
+    position: absolute;
+}
+
+nav a:hover::before {
+    width: 100%
+} 
+
+.hero {
+    color: var(--secondary-color);
+    font-size: larger;
+    padding: 50px 0px 0px 16px;
+    align-content: center;
+    background-image: url(./images/debby-hudson-VIr-KKzL2eg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    
+}
+
+.hero p {
+    color: rgba(71, 107, 226, .8);
+    padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+
+}
+
+.hero p span {
+    font-weight:bold;
+    color: rgb(71, 107, 226)
+}
+
+.second-para {
+    margin-top: 200px;
+    margin-right: 100px;
+    text-align: right;
+}
+
+

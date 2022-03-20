@@ -22,11 +22,13 @@ body {
 
 .container h1 {
     float: left;
+    border: 2px solid #e78484;
     color: var(--secondary-color);
+    opacity: 0.7;
     margin:  10px 0 10px 0;
     padding: 2px 4px;
     font-weight: 100;
-    border: 2px solid #e78484;
+   
    
 
 }
@@ -98,7 +100,7 @@ nav a:hover::before {
     background-image: url(./images/debby-hudson-VIr-KKzL2eg-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    height: 650px;
+    height: 750px;
     
 }
 
@@ -118,12 +120,37 @@ nav a:hover::before {
 
 .second-para {
     margin-top: 100px;
-    margin-right: 100px;
+    margin-right: 80px;
     text-align: right;
 }
 
-.box {
+.about-me {
+    background:var(--primary-color);
+    color: var(--secondary-color);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    
 
+}
+
+.about-me h2 {
+    padding-top: 20px;
+    margin-left: 60px;
+    color: rgba(255, 254, 189, .8);
+    font-weight: 100;
+
+}
+
+.headshot {
+    margin-left: 60px;
+    padding: 20px 0 20px 0;
+}
+
+.about-me p {
+    margin-left: 60px;
+    padding: 0 20px 20px 0;
+    color: rgba(255, 254, 189, .8);;
 }
 
 

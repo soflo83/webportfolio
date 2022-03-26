@@ -261,15 +261,17 @@ nav a:hover::before {
 @media screen and (max-width: 768px) {
 
 .runbg {
-    height: 225px;
+    height: 200px;
 }    
 
 .run1 {
     height: 150px;
+    margin-left: 40px;
 }
 
 .run2 {
     height: 150px;
+
 }
 
 .run3 {
@@ -335,15 +337,16 @@ nav ul li {
 
 .run1 {
     height: 100px;
-    margin-left: 46px;
+    margin-left: -12px;
 
 
 }
 
 .run2 {
     height: 100px;
-    margin: 4px;
     margin-right: 40px;
+    margin-top: 10px;
+    padding: 0;
     
     
 }
@@ -351,7 +354,8 @@ nav ul li {
 .run3 {
     height: 100px;
     margin-top: 10px;
-    padding-left: 46px;
+    margin-right: 441px;
+    margin-bottom: 10px;
 }
 
 .contact {

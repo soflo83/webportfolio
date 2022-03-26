@@ -285,5 +285,84 @@ nav a:hover::before {
     
 @media screen and (max-width: 575px) {
 
-    width: 60%;
+body {
+    width: 595px;
+    height: auto;
+}
+
+nav ul li {
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.headshot {
+    height: 100px;
+    padding: 0;
+}
+
+.container h1 {
+    padding-left: 154px;
+}
+
+    
+.about-me {
+    height: auto;
+}
+
+.about-me p {
+    font-size: larger;
+    padding: 0 10 20 10;
+    margin: 0;
+    text-align: center;
+}
+
+}
+.portfolio p {
+    font-size: larger;
+    padding: 0 10 20 10;
+    margin: 0;
+    text-align: center;
+
+}
+
+.runbg {
+    height: 150px;
+    margin-left: 46px;
+
+}    
+
+.run1 {
+    height: 100px;
+    margin-left: 46px;
+
+
+}
+
+.run2 {
+    height: 100px;
+    margin: 4px;
+    margin-right: 40px;
+    
+    
+}
+
+.run3 {
+    height: 100px;
+    margin-top: 10px;
+    padding-left: 46px;
+}
+
+.contact {
+    height: 400px;
+}
+
+.second-para {
+    text-align: center;
+    margin-top: 320px;
+}
+
+
+
 }    
